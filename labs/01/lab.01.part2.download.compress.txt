@@ -15,26 +15,26 @@ Feel free to use your workstation to test your answers to the questions that don
 1. Write the command that you would use to change to the root directory.
 ----------
 
-
+cd /
 
 ==========
 2. Write the command that you would use to change to your home directory.
 ----------
 
-
+cd ~
 
 ==========
 3. What's the absolute path to your Desktop directory?
 ----------
-
+The absolute path to my desktop directory would be the starting point from the root.
 
 
 ==========
 4. If you're in your home directory, how would you create a new directory on your desktop
 called stuff without changing your directory?  Write your command below.
 ----------
-
-
+Step 1 $ cd mtech1003
+Step 2 $ mkdir stuffwithoutchangingyourdirectory
 
 
 ==========
@@ -75,8 +75,7 @@ $ echo hello there
 Copy and paste the output below.
 ----------
 
-
-
+hello there
 
 ==========
 2. Type:
@@ -85,8 +84,7 @@ $ echo whoa
 
 Copy and paste the output below.
 ----------
-
-
+whoa
 
 ==========
 3. Type:
@@ -95,6 +93,11 @@ $ echo good mornin'
 
 Copy and paste the output below.
 ----------
+$ o good mornin'
+>
+>
+>
+>
 
 
 
@@ -113,8 +116,7 @@ $ echo "good mornin'"
 
 Copy and paste the output below.
 ----------
-
-
+good mornin'
 
 ==========
 6. There are some other symbols that have special meanings if you don't quote them.
@@ -124,8 +126,7 @@ $ echo *
 
 What happens?
 ----------
-
-
+bin cmd dev etc git-bash.exe git-cmd.exe LICENSE.txt mingw64 mtec1003 proc ReleaseNotes.html tmp unins000.dat unins000.exe unins000.msg usr
 
 
 ==========
@@ -133,8 +134,7 @@ What happens?
 
 Write the command that you used below:
 ----------
-
-
+clear
 
 ==========
 Downloading files from a web site:  We'll use the following method to download more lab materials!
@@ -148,9 +148,6 @@ $ curl -o mygoogle.html www.google.com
 
 Now copy and paste the output below.
 ----------
-
-
-
 
 
 
