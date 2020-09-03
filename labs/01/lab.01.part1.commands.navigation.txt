@@ -250,23 +250,18 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
-
-
-
+/c/Users/Henry Cruz/mtec1003
 
 ==========
 26. Type:
 
-$ cd ~/mtec1002
+$ cd ~/mtec1003
 $ pwd
 
 Copy and paste the output into the space below.
 ----------
 
-
-
-
+/c/Users/Henry Cruz/mtec1003
 
 
 ==========
@@ -276,14 +271,11 @@ $ hostname
 
 Copy and paste the output into the space below.
 ----------
-
-
-
-
+DESKTOP-0IG4KGJ
 
 
 ==========
-28. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
+28. Make sure you're back in your mtec1003, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
 
@@ -294,7 +286,7 @@ Copy and paste the output into the space below.
 ==========
 29. If you're not in the right directory, type the following command:
 
-cd ~/mtec1002
+cd ~/mtec1003
 
 Otherwise skip this question/step!
 ----------
@@ -317,21 +309,14 @@ lemon
 Write the one command you used below:
 ----------
 
-
-
-
-
+ mkdir -p lemon/strawberry/orange/pineapple
 
 ==========
 31. Make another directory called aardvark.
 
 Write the command you used to create the directory below:
 ----------
-
-
-
-
-
+mkdir aardvark
 
 ==========
 32. List the files and directories in the current directory using the long format.
@@ -339,10 +324,7 @@ Write the command you used to create the directory below:
 What is the modified date of the aardvark directory?
 ----------
 
-
-
-
-
+/c/Users/Henry Cruz/mtec1003/aardvark
 
 ==========
 33. Make 3 directories nested within each other:
@@ -354,10 +336,7 @@ What is the modified date of the aardvark directory?
 What command did you use?
 ----------
 
-
-
-
-
+ mkdir -p foo/bar/baz
 
 ==========
 34. Change your directory so that you're in the inner most directory (baz)
@@ -365,76 +344,54 @@ What command did you use?
 What command did you use?
 ----------
 
-
-
-
-
+cd foo
+cd bar
+cd baz
+/c/Users/Henry Cruz/mtec1003/foo/bar/baz
 
 ==========
 35. Change your directory so that you're two directories up (foo)
 
 What command did you use?
 ----------
+ cd ../
 
-
-
-
-
+/c/Users/Henry Cruz/mtec1003/foo/bar
 
 ==========
 36. What command is used to delete empty directories?
 ----------
 
-
-
-
-
+rmdir
 
 ==========
 37. What command is used to print out your current working directory?
 ----------
 
-
-
-
-
+pwd
 
 ==========
 38. What flag do I pass to ls to print out all files?
 ----------
 
-
-
-
-
+$ ls -alt
 
 ==========
 39. What's the shortcut for home directory?
 ----------
 
-
-
-
-
-
+cd ~
 ==========
 40. What's a pathname?
 ----------
-
-
-
-
-
+A pathname is a name given to any files that are in a specific location on a system.
 
 ==========
 41. What is a directory?
 ----------
-
-
-
-
-
+A catalouge that list the name of all files
 
 ==========
 42. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+Files that are starting from the loops.
