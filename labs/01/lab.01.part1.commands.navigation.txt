@@ -15,11 +15,9 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-
-
-
-
-
+bin/  etc/           LICENSE.txt  ReleaseNotes.html  unins000.exe*
+cmd/  git-bash.exe*  mingw64/     tmp/               unins000.msg
+dev/  git-cmd.exe*   proc/        unins000.dat       usr/
 
 ==========
 2.  Type:
@@ -28,12 +26,9 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
-
-
-
-
-
+total 288990
+-rw-r--r-- 1 Henry Cruz 197609       162 Jul 24  2017 '~$B REPORT.docx'
+-rw-r--r-- 1 Henry Cruz 197609     11629 Jul 24  2017 '~WRL2824.tmp'
 ==========
 3.  Type:
 
@@ -41,11 +36,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
-
-
-
-
+ ./
+ ../
 
 ==========
 4.  Type:
@@ -54,48 +46,25 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
-
-
-
-
-
+ls: cannot access 'doesnotexist': No such file or directory
 ==========
 5.  What key do I press to go to the previous command?
 ----------
-
-
-
-
-
-
+The up Arrow
 ==========
 6.  Name two flags that we used in this exercise.
 ----------
-
-
-
-
-
-
+-a
+-l
 ==========
 7.  What was the main command that we used throughout this exercise?
 ----------
-
-
-
-
-
+ls
 
 ==========
 8.  What's one an argument that we've so far passed to a command?
 ----------
-
-
-
-
-
-
+Documents
 ==========
 9.  Type:
 
@@ -103,11 +72,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
-
-
-
-
+bash: foo: command not found
 
 ==========
 10.  Type:
@@ -117,10 +82,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
-
-
-
-
+command not found
 
 ==========
 11.  In the following line....
@@ -129,10 +91,10 @@ $ ls -a Desktop
 
 Identify the command, flag, argument, and prompt:
 ----------
-
-
-
-
+prompt: $
+command: ls
+flag: -a
+argument: Desktopcleart
 
 Lab 1 / Part 2 - Navigating the File System
 ==========
