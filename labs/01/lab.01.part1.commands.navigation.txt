@@ -106,22 +106,15 @@ Follow the instructions line-by-line.
 ==========
 
 ==========
-12. Open a new terminal window. Create a directory called mtec1002. What command did you use?
+12. Open a new terminal window. Create a directory called mtec1003. What command did you use?
 ----------
 
-
-
-
-
+$ mkdir mtec1003
 
 ==========
-13. Change your directory so that you're in mtec1002. What command did you use?
+13. Change your directory so that you're in mtec1003. What command did you use?
 ----------
-
-
-
-
-
+cd mtec1003
 
 ==========
 14. Type:
@@ -135,10 +128,7 @@ If it doesn't ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
-
-
-
-
+/mtec1003
 
 ==========
 15. Type:
@@ -148,11 +138,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
-
-
-
-
+animals/
 
 ==========
 16. Type:
@@ -163,10 +149,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
-
-
-
+animals/  food/
 
 ==========
 17. Type:
@@ -177,10 +160,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
-
-
-
+animals/  foo/  food/
 
 ==========
 18. Type:
@@ -191,10 +171,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
-
-
-
+/mtec1003/foo/bar/baz/qux
 
 ==========
 19. Type:
@@ -205,10 +182,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
-
-
-
+/mtec1003/foo/bar
 
 ==========
 20. Type:
@@ -219,10 +193,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
-
-
-
+/mtec1003/foo/bar/baz/qux/foo/bar/baz/qux
 
 ==========
 21. Type:
@@ -233,10 +204,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
-
-
-
+/mtec1003/foo/bar/baz/qux
 
 ==========
 22. Type:
@@ -247,11 +215,9 @@ $ ls -l
 
 Copy and paste the first 3 lines from the output into the space below.
 ----------
-
-
-
-
-
+$ ls -l
+total 0
+drwxr-xr-x 1 Henry Cruz 197609 0 Sep  3 14:53 foo/
 
 ==========
 23. Type:
@@ -262,10 +228,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
-
-
-
+/c/Users/Henry Cruz
 
 ==========
 24. Type:
@@ -276,10 +239,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
-
-
-
+/c/Users/Henry Cruz
 
 ==========
 25. Type:
