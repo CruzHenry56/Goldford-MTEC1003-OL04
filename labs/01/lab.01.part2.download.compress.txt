@@ -41,13 +41,13 @@ Step 2 $ mkdir stuffwithoutchangingyourdirectory
 5. If you're in your Desktop directory, how would you change to two directories right above it (again, this should be /Users) using a relative path?  Write your command below.
 ----------
 
-
+cd .
 
 ==========
 6. What's the shortcut for changing to the directory that you were just previously in?  For example, if I were in /Volumes... and I changed to /Users/professor/Desktop, what's a quick way of changing to /Volumes without writing something like cd /Volumes?
 ----------
 
-
+$cd ../..
 
 ==========
 7. How would you show all of the files (including hidden ones) with detailed (long) information
@@ -158,9 +158,7 @@ Now copy and paste the output below.
 Write the command you used to determine your directory. Also, copy and paste the output below.
 ----------
 
-
-
-
+pwd
 
 ==========
 10. If you're not in your home directory, change to it (use the shortcut).
@@ -168,7 +166,7 @@ Write the command you used to determine your directory. Also, copy and paste the
 Write the command that you used to change to your home directory.
 If you were already in your home directory, write the command that you *would* have used to change to it!
 ----------
-
+$ cd ..
 
 
 ==========
